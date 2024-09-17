@@ -1,0 +1,59 @@
+@keyframes fadeIn {
+     form{
+        opacity: 0;
+        transform: translateY(20px);
+     }
+     to{
+        opacity: 1;
+        transform: translateY(0px);
+     }
+}
+
+
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, white, rgba(263,189,189,0.6)60%);
+    animation: fadeIn 1s ease-in-out;
+}
+.para{
+    color: #090909;
+    font-size:80px;
+    font-weight: 900;
+    text-align: right;
+    margin-left: 12rem;
+    margin-top: 6rem;
+}
+
+.hero-img{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;   
+    margin-left: 0px;
+    width: 700px;
+}
+
+.hero-img img{
+     background-color: transparent;
+    width: 484px;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 250px;
+    height: 60px;
+    border-radius: 75px;
+    margin-top:40px;
+    background-color: #f02310;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    left: 36rem;
+    top: 42rem;
+    
+}
