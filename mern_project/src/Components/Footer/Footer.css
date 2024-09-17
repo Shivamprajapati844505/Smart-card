@@ -1,0 +1,68 @@
+.footer{
+    background-color: #f8f9fa;
+    font-family: "Poppins" , sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    width:80px;
+}
+
+.brand1-name{
+    color: #333333;
+    font-family: "Prata", serif;
+    font-weight: 600;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+}
+.footer li{
+    list-style: none;
+    padding: 0 20px;
+   color: #555;
+   cursor: pointer;
+   font-size: large;  
+   transition: color 0.3s;  
+}
+.footer ul li:hover {
+    color: #f02310;
+    transform: scale(1.05);
+  }
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i {
+    font-size: 2rem;
+    margin:15px 15px;
+    cursor: pointer;
+    color: #333333;
+    transition: transform 0.3s , opacity 0.3s;
+    opacity:1;
+}
+.icons i:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+
+.footer-para{
+    text-align: center;
+    color: #555;
+    padding: 20px 0px 40px 0px ;
+    font-size: 1rem;
+    /* background-color: 33333; */
+}
